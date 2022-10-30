@@ -1,0 +1,20 @@
+{
+    "name": "cirer/practica_api",
+    "description": "practica API",
+    "type": "project",
+    "license": "gnu/gpl",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JuanCirera",
+            "email": "cirerarosa@hotmail.es"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv":"5.5.0"
+    }
+}
